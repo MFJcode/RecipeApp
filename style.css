@@ -10,3 +10,11 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
+
+.mobile-container {
+    width: 400px;
+}
+
+img {
+    max-width: 100%;
+}

@@ -28,11 +28,30 @@ body {
     min-height: 100vh;
 }
 
+img {
+    max-width: 100%;
+}
+
 .mobile-container {
     background-color: #fff;
     width: 400px;
 }
 
-img {
-    max-width: 100%;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 }
+
+header input {
+    background-color: #eee;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+}
+
+header button {
+    background-color: none;
+}
+
